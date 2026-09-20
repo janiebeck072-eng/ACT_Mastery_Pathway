@@ -1,4 +1,4 @@
-# Commercial Roadmap — From GitHub Prototype to $1,000 Center License
+[COMMERCIAL_ROADMAP.md](https://github.com/user-attachments/files/32434566/COMMERCIAL_ROADMAP.md)# Commercial Roadmap — From GitHub Prototype to $1,000 Center License
 
 ## Positioning
 Sell the product as a **center-wide instructional system**, not a folder of worksheets: diagnostic, skill compaction, strategy-first instruction, mastery gates, parallel post-assessment, and actionable tutor analytics.
