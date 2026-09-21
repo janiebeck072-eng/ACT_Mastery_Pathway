@@ -25,3 +25,19 @@
 .strategyLabel{font-size:.68rem;font-weight:800;letter-spacing:.14em;color:var(--teal);margin-bottom:10px}
 .strategyPrompt{margin-top:auto!important;padding-top:14px!important;border-top:1px solid var(--line);font-size:.76rem!important;font-weight:700;color:var(--blue)!important}
 @media (prefers-reduced-motion:reduce){.strategyCardInner{transition:none}}
+
+
+/* Interactive formula cards */
+.formulaCardGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:14px}
+.formulaCard{appearance:none;border:0;background:transparent;padding:0;min-height:190px;perspective:1000px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.formulaCard:focus-visible{outline:3px solid #7aa0bd;outline-offset:4px;border-radius:8px}
+.formulaCardInner{position:relative;display:block;width:100%;height:190px;transition:transform .48s ease;transform-style:preserve-3d}
+.formulaCard.flipped .formulaCardInner{transform:rotateY(180deg)}
+.formulaFace{position:absolute;inset:0;display:flex;flex-direction:column;padding:20px;border:1px solid var(--line);border-radius:6px;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;box-shadow:var(--shadow)}
+.formulaFront b,.formulaBack b{font-size:1.06rem;color:var(--navy);line-height:1.35}
+.formulaIndex{font-size:.7rem;font-weight:800;letter-spacing:.12em;color:var(--teal);margin-bottom:24px}
+.formulaBack{transform:rotateY(180deg);background:#f7fafb;border-color:#b9cbd6}
+.formulaLabel{font-size:.68rem;font-weight:800;letter-spacing:.14em;color:var(--teal);margin-bottom:10px}
+.formulaExpression{font-size:1.08rem;color:#334e68;line-height:1.5;margin-top:14px}
+.formulaPrompt{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:.76rem;font-weight:700;color:var(--blue)}
+@media (prefers-reduced-motion:reduce){.formulaCardInner{transition:none}}
