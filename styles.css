@@ -41,3 +41,6 @@
 .formulaExpression{font-size:1.08rem;color:#334e68;line-height:1.5;margin-top:14px}
 .formulaPrompt{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:.76rem;font-weight:700;color:var(--blue)}
 @media (prefers-reduced-motion:reduce){.formulaCardInner{transition:none}}
+
+/* Keyboard focus and comfortable profile controls. */
+:focus-visible{outline:3px solid #127f8c;outline-offset:3px}button,input,select{min-height:44px}select{display:block;width:min(100%,480px);font:inherit;padding:10px;margin:10px 0 18px;border:1px solid var(--line-dark);border-radius:6px;background:white}.row{flex-wrap:wrap}.qstem{overflow-wrap:anywhere}.storageWarning{margin-bottom:16px}.reduced-motion *{animation:none!important;transition:none!important}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
